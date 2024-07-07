@@ -1,3 +1,9 @@
+install..
+curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin
+
+delete
+sudo rm $(which tgpt)
+
 1.
 #!/bin/bash
 backup_dir="$HOME/backup"
