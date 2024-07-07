@@ -95,7 +95,7 @@ Line 17 -  ვპოულობთ იმ დირექტორიაში 
 #!/bin/bash
 lsb_release -a
 mkdir $HOME/Specil
-sudo apt update > "$HOME/Specil/Eupdate_log.log" 2>&1
+sudo apt update > "$HOME/Specil/update_log.log" 2>&1
 sudo apt upgrade -y >> "$HOME/Specil/update_log.log" 2>&1
 if [ $? -eq 0 ]; then
 echo "Update complete"
